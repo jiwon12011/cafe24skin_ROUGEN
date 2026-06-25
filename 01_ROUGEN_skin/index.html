@@ -148,8 +148,8 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 @media(max-width:1100px){.sub .site-header .hnav{flex:none}.sub .site-header .brand{order:0}}
 
 /* =================== 메인: 스크롤 없는 한 화면 =================== */
-body.home{overflow:hidden;height:100vh}
-body.home .hero{height:100vh;min-height:0}
+body.home{overflow:hidden;height:100vh;display:flex;flex-direction:column}
+body.home .hero{flex:1 1 auto;height:auto;min-height:0}
 body.home .hero .swiper-pagination{display:none}
 body.home .hero-slide{background:#000}
 body.home .hero-slide img{object-fit:contain;object-position:center;transform:none}
